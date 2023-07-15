@@ -1,0 +1,6 @@
+[submodule "machine-learning"]
+	path = machine-learning
+	url = git@github.com:sozo-lab/machine-learning.git
+[submodule "eneact2"]
+	path = eneact2
+	url = git@github.com:sozo-lab/eneact2.git

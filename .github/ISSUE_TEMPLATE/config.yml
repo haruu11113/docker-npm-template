@@ -1,0 +1,13 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Bug
+    about: Bug template
+    url: https://github.com/sozo-lab/care-record-dashboard/issues/new?template=bug.md&projects=sozo-lab/1&labels=bug&title=[bug]
+
+  - name: Feature
+    about: Feature template
+    url: https://github.com/sozo-lab/care-record-dashboard/issues/new?template=feature.md&projects=sozo-lab/1&labels=feature&title=[feature]
+
+  - name: Maintenance
+    about: Maintenance/refactor template
+    url: https://github.com/sozo-lab/care-record-dashboard/issues/new?template=maintenance.md&projects=sozo-lab/1&labels=refactor&title=[refactor]

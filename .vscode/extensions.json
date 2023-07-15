@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+      "EditorConfig.EditorConfig",
+      "shardulm94.trailing-spaces",
+      "formulahendry.auto-close-tag",
+      "xabikos.JavaScriptSnippets",
+      "octref.veturv",
+      "formulahendry.code-runner",
+      "dariofuzinato.vue-peek",
+      "mrmlnc.vscode-duplicate",
+    ]
+}
