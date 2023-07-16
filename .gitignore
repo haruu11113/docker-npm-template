@@ -130,6 +130,7 @@ dmypy.json
 
 # Own
 src/static/vendors/*
+nuxt/
 
 # mysqldump
 *.dump
