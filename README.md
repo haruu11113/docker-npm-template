@@ -1,4 +1,4 @@
-# Docker for care-record-dashboard
+# Docker for npm
 
 - docker version 20.10.11
 - docker-compose version v2.2.1
