@@ -1,15 +1,15 @@
 version: "3.8"
 services:
   nuxt:
-    container_name: care-record-dashboard-nuxt
+    container_name: docker-nuxt-template
     build:
       context: .
       dockerfile: ./infra/docker/nuxt/Dockerfile
       args:
-        WORKDIR: "/home/ec2-user/nuxt"
+        WORKDIR: ""
     ports:
       - "3000:3000"
     tty: true
     volumes:
-      - ./nuxt:/home/ec2-user/nuxt
+      - nuxt:/home/ec2-user/nuxt
 

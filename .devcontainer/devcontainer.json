@@ -1,44 +1,61 @@
 {
-    "name": "tfbook-dev",
+    "name": "nuxt-dev",
 
-	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
-	// The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
-	"dockerComposeFile": [
-		"../docker-compose.yml",
-		"docker-compose.yml"
-	],
-	"service": "nuxt",
-	"workspaceFolder": "/home/ec2-user/code/nuxt/",
-	"features": {
-		"ghcr.io/customink/codespaces-features/common-amzn:1": {}
-	},
+    // Update the 'dockerComposeFile' list if you have more compose files or use different names.
+    // The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
+    "dockerComposeFile": [
+        "../docker-compose.yml",
+        "docker-compose.yml"
+    ],
+    "service": "nuxt",
+    "workspaceFolder": "/home/ec2-user/nuxt/",
     "customizations": {
         "vscode": {
             "extensions": [
                 "GitHub.copilot-nightly",
-                "GitHub.copilot"
+                "GitHub.copilot",
+                "ms-ceintl.vscode-language-pack-ja",
+                "ms-azuretools.vscode-docker",
+                // GitHub
+                "donjayamanne.githistory",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                // HTML debug
+                "ecmel.vscode-html-css",
+                "formulahendry.auto-close-tag",
+                "shardulm94.trailing-spaces",
+                "formulahendry.auto-rename-tag",
+                "HookyQR.beautify",
+                // Javascritp debug
+                "xabikos.JavaScriptSnippets",
+                // Vue debug
+                "formulahendry.code-runner",
+                "octref.vetur",
+                "dariofuzinato.vue-peek",
+                "mrmlnc.vscode-duplicate",
+                "titiaiev.vue-docs"
             ]
         }
     }
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {},
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
 
-	// Uncomment the next line if you want start specific services in your Docker Compose config.
-	// "runServices": [],
+    // Uncomment the next line if you want start specific services in your Docker Compose config.
+    // "runServices": [],
 
-	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
-	// "shutdownAction": "none",
+    // Uncomment the next line if you want to keep your containers running after VS Code shuts down.
+    // "shutdownAction": "none",
 
-	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": "cat /etc/os-release",
+    // Uncomment the next line to run commands after the container is created.
+    // "postCreateCommand": "cat /etc/os-release",
 
-	// Configure tool-specific properties.
-	// "customizations": {},
+    // Configure tool-specific properties.
+    // "customizations": {},
 
-	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "devcontainer"
+    // Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
+    // "remoteUser": "devcontainer"
 }
