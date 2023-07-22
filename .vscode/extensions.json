@@ -1,12 +1,35 @@
 {
-    "recommendations": [
-      "EditorConfig.EditorConfig",
-      "shardulm94.trailing-spaces",
-      "formulahendry.auto-close-tag",
-      "xabikos.JavaScriptSnippets",
-      "octref.veturv",
-      "formulahendry.code-runner",
-      "dariofuzinato.vue-peek",
-      "mrmlnc.vscode-duplicate",
-    ]
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "shardulm94.trailing-spaces",
+    "formulahendry.auto-close-tag",
+    "xabikos.JavaScriptSnippets",
+    "octref.veturv",
+    "formulahendry.code-runner",
+    "dariofuzinato.vue-peek",
+    "mrmlnc.vscode-duplicate",
+    // same with devcontainer
+    "GitHub.copilot-nightly",
+    "GitHub.copilot",
+    "ms-ceintl.vscode-language-pack-ja",
+    "ms-azuretools.vscode-docker",
+    // GitHub
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    // HTML debug
+    "ecmel.vscode-html-css",
+    // "formulahendry.auto-close-tag",
+    // "shardulm94.trailing-spaces",
+    // "formulahendry.auto-rename-tag",
+    "HookyQR.beautify",
+    // Javascritp debug
+    // "xabikos.JavaScriptSnippets",
+    // Vue debug
+    // "formulahendry.code-runner",
+    // "octref.vetur",
+    // "dariofuzinato.vue-peek",
+    // "mrmlnc.vscode-duplicate",
+    "titiaiev.vue-docs"
+  ]
 }

@@ -88,5 +88,5 @@ ALTER USER 'dbのユーザ名'@'%' IDENTIFIED WITH mysql\_native\_password BY '�
 https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login-ja
 
 ## License
-[MIT](./LICENSE)
+[MIT](./.github/LICENSE)
 # docker-npm-template
