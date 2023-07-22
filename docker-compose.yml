@@ -9,6 +9,7 @@ services:
         WORKDIR: "/home/ec2-user/code/nuxt"
     ports:
       - "3000:3000"
+      - "24678:24678"
     tty: true
     volumes:
       - ./:/home/ec2-user/code
