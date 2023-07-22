@@ -11,5 +11,5 @@ services:
       - "3000:3000"
     tty: true
     volumes:
-      - nuxt:/home/ec2-user/nuxt
+      - ./:/home/ec2-user/code
 
