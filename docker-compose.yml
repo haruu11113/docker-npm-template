@@ -13,4 +13,5 @@ services:
     tty: true
     volumes:
       - ./:/home/ec2-user/code
-
+      # for mac github config
+      - ~/.ssh:/root/.ssh
