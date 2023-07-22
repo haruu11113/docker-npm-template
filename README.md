@@ -21,7 +21,18 @@ git submodule update
 ```
 
 ### 3. Start Docker
-**if you are using mac, turn on ```~/.ssh:/root/.ssh``` on ```docker-compose.yml```**
+**※if you are using mac, turn on ```~/.ssh:/root/.ssh``` on ```docker-compose.yml```**
+
+```yaml
+  ~
+  ~
+  ~
+  tty: true
+  volumes:
+    - ./:/home/ec2-user/code
+    # for mac github config
+    - ~/.ssh:/root/.ssh
+```
 
 ```bash
 make build
