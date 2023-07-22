@@ -8,7 +8,7 @@
         "docker-compose.yml"
     ],
     "service": "nuxt",
-    "workspaceFolder": "/home/ec2-user/code/",
+    "workspaceFolder": "/home/ec2-user/code/nuxt",
     "customizations": {
         "vscode": {
             "extensions": [
