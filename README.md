@@ -10,8 +10,6 @@
 ```bash
 git clone ???????????? ./baeckend
 
-cd care-record-dashboard
-git submodule update --init --recursive
 ```
 
 ### 2. Start Docker
