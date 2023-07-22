@@ -8,7 +8,7 @@
 
 ### 1. Clone this repocitory
 ```bash
-git clone git@github.com:sozo-lab/care-record-dashboard.git
+git clone ???????????? ./baeckend
 
 cd care-record-dashboard
 git submodule update --init --recursive
