@@ -8,20 +8,38 @@
 
 ### 1. Clone this repocitory
 ```bash
-git clone ???????????? ./nuxt
-
+git clone ????????????
+cd ?????
 ```
 
-### 2. Start Docker
+### 2. add your project file as a submodule
+```bash
+rm -rf ./nuxt
+git submodule add ??????????????? nuxt
+git submodule init
+git submodule update
+```
+
+### 3. Start Docker
+**if you are using mac, turn on ```~/.ssh:/root/.ssh``` on ```docker-compose.yml```**
 
 ```bash
+make build
 make up
-  or
+```
+
+### 4. open vscode
+#### 4(a) open vscode on devcontainer *need to install devconatiner-cli from vscode
+```bash
 devcontainer open
 ```
 
+#### 4(b) if you want to open vscode on local
+```bash
+code .
+```
 
-### 3. Install Packages
+### 5. Install Packages
 ```bash
 make npm-install
 ```
@@ -32,6 +50,10 @@ make npm-install
 
 ```bash
 make npm-dev
+  or
+
+make nuxt
+npm run dev
 ```
 -> go to http://localhost:3000/
 

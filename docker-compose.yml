@@ -14,4 +14,4 @@ services:
     volumes:
       - ./:/home/ec2-user/code
       # for mac github config
-      - ~/.ssh:/root/.ssh
+      # - ~/.ssh:/root/.ssh
