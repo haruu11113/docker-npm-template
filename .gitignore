@@ -131,6 +131,7 @@ dmypy.json
 # Own
 src/static/vendors/*
 nuxt/
+!nuxt/.gitkeep
 
 # mysqldump
 *.dump
