@@ -2,37 +2,31 @@
 
 - docker version 20.10.11
 - docker-compose version v2.2.1
-- npm version:
+- npm version: lts
 
-## How to use and run those code
+## How to use
 
 ### 1. Clone this repocitory
 ```bash
-git clone ???????????? ./baeckend
+git clone ???????????? ./nuxt
 
 ```
 
 ### 2. Start Docker
 
-#### When 1st time
-```bash
-make init
-```
-
-#### When after 2nd time
 ```bash
 make up
+  or
+devcontainer open
 ```
 
-### 3. Modify .envs
 
-
-### 4. Install Packages
+### 3. Install Packages
 ```bash
 make npm-install
 ```
 
-### 5. Start and Stop Nuxt Server
+### Start and Stop Nuxt Server
 
 [start nuxt server]:
 
@@ -47,12 +41,12 @@ make npm-dev
 Ctrl + c
 ```
 
-### Stop Docekr (When finishe developing)
-```bash
-make up
+### 4. Stop Docker
+```
+make stop
 ```
 
-### store template
+## store template
 ```js
 export const state = () => ({
   変数名: 初期値,
@@ -79,10 +73,6 @@ export const actions = {
 }
 ```
 
-## DB error
-```
-ALTER USER 'dbのユーザ名'@'%' IDENTIFIED WITH mysql\_native\_password BY 'パスワード';
-```
 
 ## Reference
 https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login-ja
