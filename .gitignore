@@ -136,3 +136,5 @@ nuxt/
 # mysqldump
 *.dump
 *.zip
+
+.gitmodules
